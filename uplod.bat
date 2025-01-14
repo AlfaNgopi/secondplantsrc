@@ -1,4 +1,4 @@
 git add .
-git commit -m "$(date)"
+git commit -m "$(date '+%Y-%m-%d %H:%M:%S')"
 git push
-echo "dfghjk"
+read -p "Press any key to close this window..."
